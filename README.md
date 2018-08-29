@@ -9,7 +9,7 @@ Simple Python script that fetches the current fiber availability
  pip install argparse
  pip install slacker
  ```
- 2. Create a Slack bot, and grab the API key suppied [here](https://api.slack.com/bot-users)
+ 2. Create a Slack bot, and grab the API key supplied [here](https://api.slack.com/bot-users)
  3. Run scraper.py
  ```Bash
  python emailServer.py -c <Your config file>
