@@ -12,11 +12,11 @@ Simple Python script that fetches the current fiber availability
  2. Create a Slack bot, and grab the API key supplied [here](https://api.slack.com/bot-users)
  3. Run scraper.py
  ```Bash
- python emailServer.py -c <Your config file>
+ python scraper.py -c <Your config file>
  ```
  Example: 
  ```Bash
- python emailServer.py -c my_config.json
+ python scraper.py -c my_config.json
  ```
  
  ##Configuration
