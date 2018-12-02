@@ -2,8 +2,14 @@
 
 Simple Python script that fetches the current fiber availability
  status for the configured address.
- 
+
  ## Usage
+ 0. Optionally setup a virtual env
+ ```Bash
+ virtualenv venv
+ source ./venv/bin/activate
+ ```
+
  1. Install dependencies (slacker, argparse):
  ```Bash
  pip install argparse
@@ -19,7 +25,7 @@ Simple Python script that fetches the current fiber availability
  python scraper.py -c my_config.json
  ```
  
- ##Configuration
+ ## Configuration
  Configuration is done through a JSON config file whose location is passed on the cmd line.
  Below is a description of its overall structure:
  ```json
