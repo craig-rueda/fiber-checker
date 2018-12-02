@@ -1,7 +1,7 @@
 # ATT Fiber Availability Checker
 
 Simple Python script that fetches the current fiber availability
- status for the configured address.
+ status for the configured address and posts the results to a slack channel.
 
  ## Usage
  0. Optionally setup a virtual env
